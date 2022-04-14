@@ -3,7 +3,6 @@ package BinarySearch;
 import utils.TreeNode;
 
 public class SearchInABinarySearchTree {
-    TreeNode tree;
     public TreeNode searchBST(TreeNode root, int val) {
         if (val == root.val) {
             return root;
