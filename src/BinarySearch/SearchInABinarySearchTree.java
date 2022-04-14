@@ -7,8 +7,8 @@ public class SearchInABinarySearchTree {
         if (val == root.val) {
             return root;
         }
-        if (val > root.val && root.left != null) return searchBST(root.left, val);
-        else if (val < root.val && root.right != null) return searchBST(root.right, val);
+        if (val > root.val && root.right != null) return searchBST(root.right, val);
+        else if (val < root.val && root.left != null) return searchBST(root.left, val);
 
         return new TreeNode();
     }
